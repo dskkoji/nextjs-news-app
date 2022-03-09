@@ -25,6 +25,7 @@ const WeatherNews: React.FC<Props> = ({ weatherNews }) => {
           <Image 
             className={styles.weather__icon}
             src={`/img/weatherIcons/${currentWeatherIcon}.png`}
+            alt="Tokyo's weather icon"
             loading="eager"
             width={52}
             height={52}
