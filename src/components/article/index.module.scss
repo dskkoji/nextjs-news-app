@@ -33,3 +33,14 @@
   margin-right: 10px;
   flex: 1;
 }
+@media screen and (max-width:600px) {
+  .article__heading {
+    h1 {
+      display: inline;
+      width: 90%;
+    }
+  }
+  .article__img {
+    max-height: 70px;
+  }
+}
